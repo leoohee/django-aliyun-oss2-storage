@@ -1,5 +1,5 @@
 # Django Aliyun OSS2 Storage
-
+修改_save()方法，采用post_object的方法。让文件上传不经过服务器，直接传输到oss。有效降低了服务器带宽要求。
 
 ### Django storage for [阿里云 OSS2](https://www.aliyun.com/product/oss/?spm=5176.383338.201.42.WB7sGd)
 
